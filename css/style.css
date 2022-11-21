@@ -1,0 +1,57 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.header {grid-area: header;}
+.main {grid-area: main;}
+.footer {grid-area: footer;}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px auto 150px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+
+.main{
+    flex-direction: column;
+}
+.welcome{
+    height: 40%;
+    text-align: center;
+}
+.formular{
+    height: 60%;
+    text-align: center;
+}
+form{
+    height: 100%;
+    width: 100%;
+}
+input , button{
+    height: 30px;
+    width: 60%;
+}
+.Itext{
+    margin: 10px;
+}
+
+.signin{
+    bottom: 20px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 60%;
+    margin: 10px;
+}
