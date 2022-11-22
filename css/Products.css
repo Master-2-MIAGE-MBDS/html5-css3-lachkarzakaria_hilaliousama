@@ -1,0 +1,48 @@
+.choise{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.capital{
+    height: 100%;
+    width: 100%;
+}
+.c:hover{
+    cursor: pointer;
+}
+.ProductImg{
+    height: 100%;
+    width: 30%;
+}
+.ProductInfo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 10%;
+}
+.Principle{
+    height: 100%;
+    width: 100%;
+}
+.Second{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgP{
+    height: 50%;
+    width: auto;
+}
+.Product{
+    display: flex;
+    flex-direction: row;
+    height: 35%;
+    margin: 3%;
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.09);
+    border-radius:10px;
+}
