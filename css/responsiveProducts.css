@@ -1,0 +1,21 @@
+@media screen and (max-width: 750px) and (min-width:330) { 
+    .Product{
+        display: flex;
+        flex-direction: row;
+        text-align: 30%;
+    }
+    .imgP{
+        height: 50%;
+        width: auto;
+        align-items: center;
+        margin-top: 50%;
+    }
+}
+@media screen and (max-width: 330px) { 
+    .imgP{
+        height: 30%;
+        width: auto;
+        align-items: center;
+        margin-top: 50%;
+    }
+}

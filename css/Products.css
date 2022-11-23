@@ -1,3 +1,14 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% auto 7%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
 .choise{
     display: flex;
     flex-direction: row;
@@ -10,23 +21,47 @@
 .c:hover{
     cursor: pointer;
 }
+.Product{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 35%;
+    margin: 3%;
+    padding:2%;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.09);
+    border-radius:10px;
+}
 .ProductImg{
     height: 100%;
     width: 30%;
+}
+.imgP{
+    height: 100%;
+    width: auto;
+    align-items: center;
 }
 .ProductInfo{
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
-    margin: 10%;
+    margin-left: 10%;
 }
 .Principle{
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.title{
+    height: 100%;
+    width: 90%;
+}
+.desc{
+    height: 100%;
+    width: 90%;
 }
 .Second{
     height: 100%;
@@ -34,18 +69,4 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.imgP{
-    height: 50%;
-    width: auto;
-}
-.Product{
-    display: flex;
-    flex-direction: row;
-    height: 35%;
-    margin: 3%;
-    padding:10px;
-    border:0;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.09);
-    border-radius:10px;
 }

@@ -1,3 +1,14 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 9% auto 7%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
 .welcome{
     height: 40%;
     text-align: center;
